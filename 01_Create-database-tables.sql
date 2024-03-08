@@ -32,7 +32,7 @@ SET GLOBAL local_infile = 'ON';
 /* Load the CSV file into the table previously created
 Include the \r in 'Lines terminated By' if using Windows
 Ignore the first line as it is usually the header */
-LOAD DATA LOCAL INFILE 'C:/Users/alexv/Documents/My_Study/Data_Analytics/Projects/Bike riding Google/Original-data/202312-divvy-tripdata.csv' 
+LOAD DATA LOCAL INFILE 'C:/202312-divvy-tripdata.csv' 
 INTO TABLE `bike_riding_project`.`202312_data`
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
